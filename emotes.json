@@ -1,7 +1,7 @@
 {
 	"filetypes": ["png", "gif"],
 	"emotes": {
-		"png":["lul","PandaBlush", "PandaCry", "PandaGift", "PandaNom", "PandaOhNo", "PandaREE", "PandaSantaThink", "PandaUh", "PandaXD","popcorn","shrug","thinken","triggered","wut"],
+		"png":["choco","dab","hug","lul","PandaBlush", "PandaCry", "PandaGift", "PandaNom", "PandaOhNo", "PandaREE", "PandaSantaThink", "PandaUh", "PandaXD","pikalul","popcorn","rage","shrug","sadness","thinken","triggered","woah","wut","yay"],
 		"gif":["vibe"]
 	}
 }
