@@ -1,7 +1,55 @@
 {
-	"filetypes": ["png", "gif"],
-	"emotes": {
-		"png":["choco","dab","hug","lul","PandaBlush", "PandaCry", "PandaGift", "PandaNom", "PandaOhNo", "PandaREE", "PandaSantaThink", "PandaUh", "PandaXD","pikalul","popcorn","rage","shrug","sadness","thinken","triggered","woah","wut","yay"],
-		"gif":["vibe"]
-	}
+  "filetypes": [
+    "png",
+    "gif"
+  ],
+  "emotes": {
+    "png": [
+      "PandaBan",
+      "PandaBlush",
+      "PandaCry",
+      "PandaGift",
+      "PandaNom",
+      "PandaOhNo",
+      "PandaREE",
+      "PandaSantaThink",
+      "PandaUh",
+      "PandaXD",
+      "PandaYay",
+      "choco",
+      "dab",
+      "hug",
+      "lmao",
+      "lul",
+      "no",
+      "pepehands",
+      "pikalul",
+      "popcorn",
+      "rage",
+      "sadness",
+      "shh",
+      "shrug",
+      "thinken",
+      "thonk",
+      "triggered",
+      "woah",
+      "wut",
+      "yes",
+      "yess",
+      "youtried"
+    ],
+    "gif": [
+      "blob",
+      "clap",
+      "coffin",
+      "correct",
+      "hugg",
+      "noice",
+      "pikashock",
+      "sadman",
+      "thumbsup",
+      "vibe",
+      "yay"
+    ]
+  }
 }

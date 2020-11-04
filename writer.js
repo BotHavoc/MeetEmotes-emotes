@@ -13,6 +13,6 @@ fs.readdir("./emotes", (err, files) => {
 			data["emotes"][ft].push(f.substring(0, f.length - ft.length - 1));
 		})
 	})
-	fs.writeFileSync('test.json', JSON.stringify(data, null, 2));
+	fs.writeFileSync('emotes.json', JSON.stringify(data, null, 2));
 })
 
