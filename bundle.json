@@ -1,0 +1,94 @@
+{
+  "filetypes": [
+    "png",
+    "gif"
+  ],
+  "bundles": {
+    "Among Us": {
+      "png": [
+        "no",
+        "shh",
+        "yes"
+      ],
+      "gif": [
+        "thumbsup"
+      ]
+    },
+    "Memes": {
+      "png": [
+        "dogface",
+        "duh",
+        "kek",
+        "lmao",
+        "monkas",
+        "okk",
+        "oops",
+        "pepehands",
+        "pepelaugh",
+        "pogchamp",
+        "safe",
+        "what",
+        "wut",
+        "yess",
+        "youtried"
+      ],
+      "gif": [
+        "coffin",
+        "lickpog",
+        "noice",
+        "pepearrive",
+        "pepeleave",
+        "pepesaber",
+        "pikashock",
+        "wesmart"
+      ]
+    },
+    "Panda": {
+      "png": [
+        "PandaBan",
+        "PandaBlush",
+        "PandaCry",
+        "PandaGift",
+        "PandaNom",
+        "PandaOhNo",
+        "PandaREE",
+        "PandaSantaThink",
+        "PandaUh",
+        "PandaXD",
+        "PandaYay"
+      ],
+      "gif": []
+    },
+    "Standard": {
+      "png": [
+        "choco",
+        "dab",
+        "fatlaugh",
+        "hug",
+        "lul",
+        "pikalul",
+        "popcorn",
+        "rage",
+        "sadness",
+        "shrug",
+        "thinken",
+        "thonk",
+        "triggered",
+        "woah"
+      ],
+      "gif": [
+        "blob",
+        "clap",
+        "correct",
+        "eblob",
+        "hugg",
+        "sadman",
+        "sweat",
+        "thinkboom",
+        "trashblob",
+        "vibe",
+        "yay"
+      ]
+    }
+  }
+}

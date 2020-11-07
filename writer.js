@@ -1,18 +1,32 @@
 const fs = require('fs');
 
 const filetypes = ["png","gif"]
-let data = { "filetypes": filetypes, "emotes": {"png": [], "gif": []} }
+let data = { "bundles": {} }
 
-fs.readdir("./emotes", (err, files) => {
-	let nft = 0;
-	filetypes.forEach(ft => {
-		let tfiles = files.filter(f => f.split(".").pop()===ft);
-		tfiles.sort();
-		let nf = 0;
-		tfiles.forEach(f => {
-			data["emotes"][ft].push(f.substring(0, f.length - ft.length - 1));
+let dir = { "emotes": [], "dir": {}};
+
+fs.readdir("./emotes", (err, bundles) => {
+	console.log(bundles);
+	bundles.forEach(bundle => {
+		data["bundles"][bundle] = {};
+		fs.readdir("./emotes/" + bundle, (err, files) => {
+			console.log("READ: " + bundle);
+				let nf = 0;
+				files.forEach(f => {
+					nf++;
+					let name = f.split(".")[0];
+					data["bundles"][bundle][name] = f;
+					dir["emotes"].push(name);
+					dir["dir"][name] = bundle + "/" + f;
+					if(nf == files.length){
+						console.log("DONE: " + bundle);
+					}
+				});
 		})
 	})
-	fs.writeFileSync('emotes.json', JSON.stringify(data, null, 2));
+	setTimeout(() => {
+		fs.writeFileSync('emotes.json', JSON.stringify(data, null, 2));
+		fs.writeFileSync('directory.json', JSON.stringify(dir, null, 2));
+	}, 2000);
 })
 
